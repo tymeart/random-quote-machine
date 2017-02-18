@@ -1,0 +1,134 @@
+* {
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body {
+	background-color: #f3f9e6;
+}
+
+p {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+.credit {
+	text-align: center;
+	font-size: 0.6em;
+	color: #999;
+}
+
+.credit a:link,
+.credit a:visited {
+	color: #2bc5ae;
+}
+
+.flex-container {
+  height: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-item {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+
+.quote-box {
+	max-width: 600px;
+	height: 325px;
+	padding: 35px;
+	background-color: #2bc5ae;
+	color: white;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+.container {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: end;
+	    -ms-flex-align: end;
+	        align-items: flex-end;
+	height: 100%;
+	position: relative;
+}
+
+.new-quote {
+	width: 600px;
+	height: 50px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	background-color: #f9c367;
+	border: none;
+	color: #fff;
+	font-size: 1.1em;
+}
+
+.quote {
+	font-family: 'Droid Serif', serif;
+	font-size: 1.9em;
+}
+
+.below-quote {
+	width: 100%;
+	height: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: end;
+	    -ms-flex-align: end;
+	        align-items: flex-end;
+}
+
+.quote-source {
+	font-size: 1.2em;
+}
+
+.twitter {
+	width: 100px;
+	height: 25px;
+	padding-top: 4px;
+	font-size: 0.8em;
+	font-family: sans-serif;
+	text-align: center;
+	border: 1px solid #fff;
+	background: none;
+}
+
+a:link, 
+a:visited {
+	color: #fff;
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: #f7b645;
+}
+
+.twitter:hover {
+	background-color: #fff;
+	color: #2bc5ae;
+}
