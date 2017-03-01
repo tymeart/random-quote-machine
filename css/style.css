@@ -145,3 +145,20 @@ a:visited {
 		width: inherit;
 	}
 }
+
+@media screen and (max-width: 320px) {
+	.below-quote {
+		flex-direction: column;
+		justify-content: flex-end;
+	}
+
+	.twitter {
+		order: 2;
+	}
+
+	.quote-source {
+		order: 1;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+}
