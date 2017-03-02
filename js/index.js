@@ -11,5 +11,5 @@ $(document).ready(function(){
 			})
 	};
 
-	$('.new-quote').click(getQuote);
+	$('.new-quote').on('click touch', getQuote);
 });
