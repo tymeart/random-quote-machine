@@ -138,6 +138,7 @@ a:visited {
 	}
 
 	.quote-box {
+		min-height: 500px;
 		min-height: calc(100% - 50px);
 	}
 
